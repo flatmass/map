@@ -26,4 +26,7 @@ python, js, django framework, bootstrap
 </br>
 <h4>РАЗРАБОТЧИКИ</h4>
 
-Руслан Умеркин — back-end, Кристина Сергеева — front-end.
+Project-manager: Валерий Черников
+UX/UI: Александр Гранкин
+Back-end: Руслан Умеркин 
+Front-end: Кристина Сергеева
