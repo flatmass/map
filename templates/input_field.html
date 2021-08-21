@@ -1,0 +1,7 @@
+<div class=" {% if f.errors %}error{% endif %}">
+    <label class="form-check-label" for="{{f.id_for_label}}">{{ f.label|capfirst }}</label>
+    {{f}}
+    {% for error in f.errors %}
+        {{ error|escape }}
+    {% endfor %}
+</div>

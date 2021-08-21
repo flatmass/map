@@ -1,0 +1,63 @@
+{% load staticfiles app_var_tag i18n %}
+{% app_var_tag as setitems %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+        {% block meta %}
+            <meta charset="{% block charset %}UTF-8{% endblock %}" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="keywords" content="{% block meta-keywords %}{% endblock %}" />
+            <meta name="description" content="{% block meta-description %}{% endblock %}" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        {% endblock %}
+        <title>{% block full-head-title %}{% block head-title %}Карта региональных инфраструктурных проектов{% endblock %}{% if setitems.items.alt_for_logo %} | {{setitems.items.alt_for_logo}}{% endif %}{% endblock %}</title>
+        {% block favicons %}
+            <link rel="icon" href="{% if setitems.items.favicon%}{{ setitems.items.favicon.url }}{% endif %}" type="image/x-icon">
+        {% endblock%}
+        {% block styles %}
+            <link type="text/css" href="{% static 'dist/css/bootstrap.css' %}" rel="stylesheet">
+        {% endblock %}
+        {% block scripts %}
+            <script>window.jQuery || document.write('<script src="{% static "js/jquery-3.4.1.min.js" %}"><\/script>')</script>
+        {% endblock %}
+        <link type="text/css" href="{% static 'js/uikit-3.3.3/css/uikit.css' %}" rel="stylesheet">
+    {% endblock %}
+</head>
+<body style="min-height: 100vh;">
+
+{% block main %}
+
+    {%block header%}
+        {% include 'partials/header.html' %}
+    {% endblock %}
+
+    {%block content%}
+    {% endblock %}
+
+    {%block footer%}
+    {% endblock %}
+
+    {% block imageModal %}
+        {% include 'partials/bootstrap_modal.html' %}
+    {% endblock %}
+
+{% endblock %}
+
+{% block frontend_media_css %}{% endblock %}
+{% block frontend_media_js %}{% endblock %}
+{% block extrascripts %}
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+
+    <script type="text/javascript" src="{% static 'js/parallax.js_1.5.0/parallax.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/simpleParallax/simpleParallax.min.js' %}"></script>
+
+    <script type="text/javascript" src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+
+    <script type="text/javascript" src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>
+
+    <script type="text/javascript" src="{% static 'js/uikit-3.3.3/js/uikit.min.js' %}"></script>
+
+{% endblock %}
+</body>
+</html>

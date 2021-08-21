@@ -1,0 +1,1956 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Русский\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-05 15:34+0000\n"
+"PO-Revision-Date: 2017-05-17 12:32+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.11\n"
+"Language: ru\n"
+
+#: mb_base/appsettings.py:5
+#: mb_base/plugins/categoryplugin/appsettings.py:6
+msgid "block template"
+msgstr "Плитка"
+
+#: mb_base/appsettings.py:5
+#: mb_base/plugins/categoryplugin/appsettings.py:4
+msgid "list template"
+msgstr "Список"
+
+#: mb_base/appsettings.py:7
+msgid "Vk"
+msgstr "Вконтакте"
+
+#: mb_base/appsettings.py:8 mb_base/siteconf/appconf.py:10
+msgid "Facebook"
+msgstr "Фейсбук"
+
+#: mb_base/appsettings.py:9 mb_base/siteconf/appconf.py:11
+msgid "Twitter"
+msgstr "Твиттер"
+
+#: mb_base/appsettings.py:10 mb_base/siteconf/appconf.py:12
+msgid "Instagram"
+msgstr "Инстаграм"
+
+#: mb_base/appsettings.py:11 mb_base/siteconf/appconf.py:13
+msgid "Youtube"
+msgstr "Youtube"
+
+#: mb_base/entities/documents/apps.py:6
+#: mb_base/entities/documents/models.py:31
+#: mb_base/plugins/documentplugin/appsettings.py:5
+#: mb_base/plugins/documentplugin/forms.py:17
+#: mb_base/plugins/documentplugin/models.py:24
+msgid "Document"
+msgstr "Документ"
+
+#: mb_base/entities/documents/forms.py:12
+#: mb_base/entities/events/forms.py:12
+#: mb_base/entities/organisation/forms.py:12
+#: mb_base/entities/orgunit/forms.py:12
+#: mb_base/entities/person/forms.py:12
+#: mb_base/entities/service/forms.py:22
+#: mb_base/models/rubrics.py:50
+#: mb_base/pages/categorypage/models.py:93
+msgid "Rubrics"
+msgstr "Рубрики"
+
+#: mb_base/entities/documents/forms.py:26
+msgid "Document title"
+msgstr "Заголовок документа"
+
+#: mb_base/entities/documents/forms.py:27
+msgid "Document about"
+msgstr "Краткое описание документа"
+
+#: mb_base/entities/documents/forms.py:28
+msgid "Document number"
+msgstr "Номер документа"
+
+#: mb_base/entities/documents/forms.py:29
+msgid "Document Publishing Authority"
+msgstr "Огран, утвердивший документ"
+
+#: mb_base/entities/documents/forms.py:32
+msgid "For example: JUDGMENT OF ADMINISTRATION Belgorod 06.02.2017 PP-N20"
+msgstr ""
+"Например: Постановление администрации Череновского сельского поселения "
+"муниципального района \"Ивнянский район\" от 04.05.2017 г. № 21"
+
+#: mb_base/entities/documents/forms.py:33
+msgid ""
+"For example: About amendments to the decision of the city administration of "
+"Belgorod"
+msgstr ""
+"Например: \"О внесении изменений в постановление администрации Череновского "
+"сельского поселения от 31.08.2015 года № 35\""
+
+#: mb_base/entities/documents/forms.py:34
+#: mb_base/entities/events/forms.py:33
+#: mb_base/entities/orgunit/forms.py:36
+#: mb_base/entities/person/forms.py:35
+msgid "Unique word indificator for document (latin charset without spaces)"
+msgstr ""
+"Уникальный идентификатор для документа (латинская кодировка без пробелов)"
+
+#: mb_base/entities/documents/forms.py:35
+msgid "For example: PP-N20"
+msgstr "Например: № 25-р"
+
+#: mb_base/entities/documents/forms.py:36
+#: mb_base/entities/events/forms.py:34
+msgid "For example: Belgorod Administration"
+msgstr "Например: Администрация Череновского сельского поселения"
+
+#: mb_base/entities/documents/forms.py:37
+msgid "If document contains several files add them into content field"
+msgstr ""
+"Если документ содержит несколько файлов, добавьте их ниже: в область "
+"\"Основной контент\"."
+
+#: mb_base/entities/documents/forms.py:38
+msgid "Add text content of document or a set of files"
+msgstr "Добавьте и заполните необходимые объекты из списка."
+
+#: mb_base/entities/documents/models.py:32
+#: mb_base/plugins/documentplugin/models.py:25
+msgid "Documents"
+msgstr "Документы"
+
+#: mb_base/entities/events/admin.py:15
+msgid "Event properties"
+msgstr "Основные поля объекта Событие"
+
+#: mb_base/entities/events/admin.py:18
+#: mb_base/entities/organisation/admin.py:29
+#: mb_base/entities/orgunit/admin.py:29
+#: mb_base/entities/person/admin.py:29
+#: mb_base/entities/service/admin.py:30
+msgid "Main content"
+msgstr "Основной контент"
+
+#: mb_base/entities/events/apps.py:6
+#: mb_base/entities/events/models.py:31
+#: mb_base/entities/organisation/apps.py:6
+#: mb_base/entities/orgunit/apps.py:6
+#: mb_base/entities/person/apps.py:6
+#: mb_base/entities/service/apps.py:6
+#: mb_base/plugins/eventplugin/appsettings.py:5
+#: mb_base/plugins/eventplugin/forms.py:17
+#: mb_base/plugins/eventplugin/models.py:24
+#: mb_base/plugins/eventplugin/models.py:25
+msgid "Event"
+msgstr "Событие"
+
+#: mb_base/entities/events/forms.py:27
+msgid "Event title"
+msgstr "Заголовок (Название События)"
+
+#: mb_base/entities/events/forms.py:28
+msgid "Lead"
+msgstr "Расширенный заголовок"
+
+#: mb_base/entities/events/forms.py:29
+#: mb_base/plugins/bannerplugin/models.py:21
+#: mb_base/plugins/pictureplugin/models.py:20
+#: mb_base/plugins/testplugin/models.py:26
+msgid "Author"
+msgstr "Автор"
+
+#: mb_base/entities/events/forms.py:32
+msgid "Annotation of the event"
+msgstr "Аннотация события (краткое, обобщенное описание события)"
+
+#: mb_base/entities/events/forms.py:35
+msgid ""
+"Main image for the event in albom orientation mix resolution 900x600 max "
+"size 10MB"
+msgstr ""
+"Основное изображение. Требования: альбомная ориентация, соотношение сторон "
+"3х4, рекомендуемое разрешение 900x600 пикселей, максимальный размер 10Мб"
+
+#: mb_base/entities/events/forms.py:36
+msgid "Add full description of the event"
+msgstr "Добавьте и заполните необходимые объекты из списка."
+
+#: mb_base/entities/events/models.py:32
+msgid "Events"
+msgstr "События"
+
+#: mb_base/entities/organisation/admin.py:19
+#: mb_base/entities/organisation/models.py:45
+#: mb_base/entities/organisation/models.py:46
+#: mb_base/plugins/organisationplugin/appsettings.py:5
+#: mb_base/plugins/organisationplugin/forms.py:17
+#: mb_base/plugins/organisationplugin/models.py:24
+msgid "Organisation"
+msgstr "Организации / Полезные ссылки"
+
+#: mb_base/entities/organisation/admin.py:22
+#: mb_base/entities/orgunit/admin.py:22
+msgid "Contact information"
+msgstr "Контактная информация"
+
+#: mb_base/entities/organisation/forms.py:29
+#: mb_base/entities/orgunit/forms.py:30
+msgid "Address"
+msgstr "Адрес"
+
+#: mb_base/entities/organisation/forms.py:30
+#: mb_base/entities/orgunit/forms.py:32
+#: mb_base/entities/person/forms.py:32
+#: mb_base/entities/service/forms.py:44
+msgid "External url"
+msgstr "Внешняя ссылка"
+
+#: mb_base/entities/organisation/forms.py:31
+msgid "Chief"
+msgstr "Начальник"
+
+#: mb_base/entities/organisation/forms.py:34
+#: mb_base/entities/orgunit/forms.py:35
+msgid "Address of the event organisation unit"
+msgstr "Адрес / Место приема"
+
+#: mb_base/entities/organisation/forms.py:35
+msgid "Unique word indificator for organisation (latin charset without spaces)"
+msgstr "Уникальный идентификатор (латинская кодировка без пробелов)"
+
+#: mb_base/entities/organisation/forms.py:36
+msgid "Main image for the organisation"
+msgstr "Основное изображение"
+
+#: mb_base/entities/organisation/forms.py:37
+msgid "Add full description of the organisation"
+msgstr ""
+"Добавьте и заполните необходимые объекты из списка для более подробного "
+"описания организации."
+
+#: mb_base/entities/organisation/models.py:21
+#: mb_base/models/entity.py:39
+msgid "text description"
+msgstr "Текстовое описание"
+
+#: mb_base/entities/organisation/models.py:22
+#: mb_base/entities/orgunit/models.py:54
+msgid "phones"
+msgstr "Телефон"
+
+#: mb_base/entities/organisation/models.py:23
+#: mb_base/entities/orgunit/models.py:55
+msgid "faxes"
+msgstr "Факс"
+
+#: mb_base/entities/organisation/models.py:24
+#: mb_base/entities/orgunit/models.py:56
+msgid "e-mail"
+msgstr "Адрес электронной почты"
+
+msgid "email"
+msgstr "Адрес электронной почты"
+
+msgid "Email"
+msgstr "Адрес электронной почты"
+
+#: mb_base/entities/organisation/models.py:25
+#: mb_base/entities/orgunit/models.py:57
+msgid "time of receipt"
+msgstr "Время приема"
+
+#: mb_base/entities/organisation/models.py:57
+#: mb_base/entities/orgunit/models.py:146
+#: mb_base/entities/person/models.py:87
+#: mb_base/entities/service/models.py:91
+#: mb_base/models/entity.py:33 mb_base/models/entity.py:87
+#: mb_base/models/sitesettings.py:71
+#: mb_base/plugins/accordionplugin/models.py:10
+#: mb_base/plugins/fileplugin/models.py:18
+#: mb_base/plugins/videoplugin/models.py:9
+msgid "title"
+msgstr "Заголовок"
+
+#: mb_base/entities/orgunit/admin.py:19
+#: mb_base/entities/orgunit/models.py:76
+msgid "Organisation unit"
+msgstr "Структурная единица"
+
+#: mb_base/entities/orgunit/forms.py:29
+msgid "Organisation unit or position"
+msgstr "Структурная единица или должность"
+
+#: mb_base/entities/orgunit/forms.py:31
+#: mb_base/entities/person/forms.py:31
+msgid "Head position"
+msgstr "Руководящая должность или ФИО"
+
+#: mb_base/entities/orgunit/forms.py:37
+msgid "For example: Head of department"
+msgstr "Например: Начальник отдела"
+
+#: mb_base/entities/orgunit/forms.py:38
+msgid "Main image for the organisation if no person set (page orientation 3x4)"
+msgstr ""
+"Основное изображение, если Персона не добавлена (ориентация книжная, "
+"отношение сторон 3x4)"
+
+#: mb_base/entities/orgunit/forms.py:39
+msgid "Add full description of the organisation unit"
+msgstr ""
+"Добавьте и заполните необходимые объекты из списка для более подробного "
+"описания структурной единицы."
+
+#: mb_base/entities/orgunit/models.py:42
+#: mb_base/models/rubrics.py:18
+msgid "parent"
+msgstr "Родительский объект"
+
+#: mb_base/entities/orgunit/models.py:50
+msgid "person"
+msgstr "Персона"
+
+#: mb_base/entities/orgunit/models.py:77
+msgid "Organisation units"
+msgstr "Структурные единицы"
+
+#: mb_base/entities/person/admin.py:19
+msgid "Person info"
+msgstr "Информация о Персоне"
+
+#: mb_base/entities/person/forms.py:28
+msgid "Person FIO"
+msgstr "ФИО Персоны"
+
+#: mb_base/entities/person/forms.py:29
+msgid "Person position"
+msgstr "Должность Персоны"
+
+#: mb_base/entities/person/forms.py:30
+msgid "Short text description"
+msgstr "Короткое текстовое описание"
+
+#: mb_base/entities/person/forms.py:36
+msgid "Leave blank if organisation unit set"
+msgstr "Оставьте поле пустым, если эта информация задана в Структурной единице"
+
+#: mb_base/entities/person/forms.py:37
+msgid "Main image for the person (portret orientation 3x4)"
+msgstr ""
+"Основное изображение для Персоны. Требования: книжная ориентация, отношение "
+"сторон 3x4"
+
+#: mb_base/entities/person/forms.py:38
+msgid "Add full description of the Person"
+msgstr ""
+"Добавьте и заполните необходимые объекты из списка для более подробного "
+"описания Персоны."
+
+#: mb_base/entities/person/models.py:63
+#: mb_base/plugins/personplugin/appsettings.py:5
+#: mb_base/plugins/personplugin/forms.py:17
+#: mb_base/plugins/personplugin/models.py:24
+msgid "Person"
+msgstr "Персона"
+
+#: mb_base/entities/person/models.py:64
+#: mb_base/plugins/personplugin/models.py:25
+msgid "Persons"
+msgstr "Персоны"
+
+#: mb_base/entities/service/admin.py:20
+#: mb_base/entities/service/models.py:70
+#: mb_base/entities/service/models.py:71
+#: mb_base/plugins/serviceplugin/forms.py:17
+#: mb_base/plugins/serviceplugin/models.py:23
+#: mb_base/plugins/serviceplugin/models.py:24
+msgid "Service"
+msgstr "Услуга"
+
+#: mb_base/entities/service/admin.py:23
+msgid "Aditional information"
+msgstr "Дополнительная информация"
+
+#: mb_base/entities/service/forms.py:43
+msgid "Service name"
+msgstr "Название услуги"
+
+#: mb_base/entities/service/forms.py:47
+msgid "Unique word indificator for service (latin charset without spaces)"
+msgstr "Уникальный идентификатор (латинская кодировка без пробелов)"
+
+#: mb_base/entities/service/forms.py:48
+msgid "Main image for the service"
+msgstr "Основное изображение"
+
+#: mb_base/entities/service/forms.py:49
+msgid "Add full description of the service"
+msgstr ""
+"Добавьте и заполните необходимые объекты из списка для более подробного "
+"описания услуги."
+
+#: mb_base/entities/service/models.py:43
+msgid "reglament"
+msgstr "Регламент"
+
+#: mb_base/entities/service/models.py:46
+msgid "organisation"
+msgstr "Организация"
+
+#: mb_base/models/entity.py:34
+msgid "sub title"
+msgstr "Подзаголовок"
+
+#: mb_base/models/entity.py:35
+msgid "article"
+msgstr "Статья"
+
+#: mb_base/models/entity.py:36 mb_base/models/rubrics.py:20
+msgid "slug"
+msgstr "Уникальное имя объекта"
+
+msgid "Phone number"
+msgstr "Номер телефона"
+
+msgid "Patronymic"
+msgstr "Отчество"
+
+msgid "Birth date"
+msgstr "Дата рождения"
+
+#: mb_base/models/entity.py:36 mb_base/models/rubrics.py:20
+msgid "For use into URL"
+msgstr "Для использования в URL-адресе"
+
+#: mb_base/models/entity.py:37
+#: mb_base/plugins/videoplugin/models.py:10
+msgid "author"
+msgstr "Автор"
+
+#: mb_base/models/entity.py:41
+msgid "image"
+msgstr "Изображение"
+
+#: mb_base/models/entity.py:42
+msgid "This image used in list as main image of entity"
+msgstr "Изображение, используемое в качестве основного изображения объекта"
+
+#: mb_base/models/entity.py:44
+#: mb_base/plugins/fileplugin/models.py:15
+msgid "file"
+msgstr "Файл"
+
+#: mb_base/models/entity.py:44
+#: mb_base/plugins/fileplugin/models.py:16
+msgid "This file used as main file of entity"
+msgstr "Файл, используемый как основной файл объекта"
+
+#: mb_base/models/entity.py:46
+msgid "tags"
+msgstr "Теги"
+
+#: mb_base/models/entity.py:46
+msgid "use semicolon as tag divider"
+msgstr "Используйте точку с запятой в качестве разделителя тегов"
+
+#: mb_base/models/entity.py:52
+#: mb_base/pages/categorypage/models.py:59
+#: mb_base/pages/categorypage/models.py:84
+msgid "rubrics"
+msgstr "Рубрики"
+
+#: mb_base/models/entity.py:55
+#: mb_base/plugins/fileplugin/models.py:19
+msgid "date added"
+msgstr "Дата создания"
+
+#: mb_base/models/entity.py:56
+msgid "date start"
+msgstr "Дата начала публикации на сайте"
+
+#: mb_base/models/entity.py:57
+msgid "date end"
+msgstr "Дата окончания публикации на сайте"
+
+#: mb_base/models/entity.py:58
+#: mb_base/plugins/categoryplugin/models.py:23
+#: mb_base/plugins/documentplugin/models.py:21
+#: mb_base/plugins/eventplugin/models.py:21
+#: mb_base/plugins/organisationplugin/models.py:21
+#: mb_base/plugins/orgunitplugin/models.py:21
+#: mb_base/plugins/personplugin/models.py:21
+#: mb_base/plugins/serviceplugin/models.py:20
+msgid "last modification"
+msgstr "Последнее изменение"
+
+#: mb_base/models/entity.py:59 mb_base/models/rubrics.py:22
+msgid "active"
+msgstr "Активный"
+
+#: mb_base/models/entity.py:60 mb_base/models/rubrics.py:23
+msgid "If this flag disable the entity not show on site"
+msgstr "Если эта галочка снята, объект не отображается на сайте"
+
+#: mb_base/models/entity.py:62
+msgid "content"
+msgstr "Контент"
+
+#: mb_base/models/entity.py:78
+msgid "base entity"
+msgstr "Объекты"
+
+#: mb_base/models/entity.py:79
+msgid "base entities"
+msgstr "Все объекты"
+
+#: mb_base/models/entity.py:92
+msgid "about"
+msgstr "Краткое описание"
+
+#: mb_base/models/managers.py:62
+#: mb_base/pages/categorypage/models.py:25
+msgid "Date Added: new first"
+msgstr "Сортировать по дате: сначала новые"
+
+#: mb_base/models/managers.py:63
+#: mb_base/pages/categorypage/models.py:24
+msgid "Date Added: old first"
+msgstr "Сортировать по дате: сначала старые"
+
+#: mb_base/models/managers.py:64
+#: mb_base/pages/categorypage/models.py:22
+msgid "Alphabetical"
+msgstr "Сортировать по алфавиту: от А до Я"
+
+#: mb_base/models/managers.py:65
+#: mb_base/pages/categorypage/models.py:23
+msgid "Alphabetical: descending"
+msgstr "Сортировать по алфавиту: от Я до А"
+
+#: mb_base/models/rubrics.py:19
+msgid "Title"
+msgstr "Заголовок"
+
+#: mb_base/models/rubrics.py:21
+msgid "decription"
+msgstr "Описание"
+
+#: mb_base/models/rubrics.py:40
+msgid "Base Rubric"
+msgstr "Рубрика"
+
+#: mb_base/models/rubrics.py:41
+msgid "Base Rubrics"
+msgstr "Рубрики"
+
+#: mb_base/models/rubrics.py:49
+#: mb_base/pages/categorypage/models.py:92
+msgid "Rubric"
+msgstr "Рубрика"
+
+#: mb_base/models/sitesettings.py:17
+msgid "the name of the site to which the setting applies"
+msgstr "Доменное имя сайта, к которому применяются настроки"
+
+#: mb_base/models/sitesettings.py:18
+msgid "favicon"
+msgstr "Фавикон"
+
+#: mb_base/models/sitesettings.py:19
+msgid "only *.ico file"
+msgstr "Только файл с расширением *.ico, рекомендуемый размер 32х32px"
+
+#: mb_base/models/sitesettings.py:20
+msgid "site logo"
+msgstr "Логотип сайта"
+
+#: mb_base/models/sitesettings.py:20
+msgid "the logo of the website"
+msgstr "Логотип веб-сайта, рекомендуемый размер 185х240px"
+
+#: mb_base/models/sitesettings.py:21
+msgid "site title"
+msgstr "Заголовок сайта"
+
+#: mb_base/models/sitesettings.py:21
+msgid "the title of the site"
+msgstr "Название сайта"
+
+#: mb_base/models/sitesettings.py:22
+msgid "site sub title"
+msgstr "Подзаголовок сайта"
+
+#: mb_base/models/sitesettings.py:22
+msgid "the subtitle of the site, use the tags (h3) and (p)"
+msgstr "Подзаголовок сайта, используйте теги (h3) и (p)"
+
+#: mb_base/models/sitesettings.py:23
+msgid "Organisation address"
+msgstr "Адрес"
+
+#: mb_base/models/sitesettings.py:23
+msgid "address of the organization"
+msgstr "Адрес, отображается в нижнем колонтитуле сайта"
+
+#: mb_base/models/sitesettings.py:24
+msgid "Copyright year from"
+msgstr "Сайт работает с "
+
+#: mb_base/models/sitesettings.py:25
+msgid "year of creation of the website"
+msgstr "Год создания сайта"
+
+#: mb_base/models/sitesettings.py:26
+msgid "copyright info"
+msgstr "Информация о владельце сайта"
+
+#: mb_base/models/sitesettings.py:26
+msgid "copyright info, only char, not html tag!"
+msgstr "Полное название (используйте только символы, БЕЗ тегов html!)"
+
+#: mb_base/models/sitesettings.py:28
+msgid "Feedback Form"
+msgstr "Форма обратной связи"
+
+#: mb_base/models/sitesettings.py:28
+msgid "feedback form in the header"
+msgstr "Форма обратной связи в шапке"
+
+#: mb_base/models/sitesettings.py:30
+msgid "a submenu in the footer of your website"
+msgstr "Подменю в нижнем колонтитуле сайта"
+
+#: mb_base/models/sitesettings.py:31
+msgid "Metrics html code"
+msgstr "html код счетчиков статистики"
+
+#: mb_base/models/sitesettings.py:31
+msgid "field metrics, raw html"
+msgstr "Исходный html метрики"
+
+#: mb_base/models/sitesettings.py:32
+msgid "Social share html code"
+msgstr "Соцсети, html код"
+
+#: mb_base/models/sitesettings.py:32
+msgid "raw html for socials digging share"
+msgstr "Исходный html для социальных сетей"
+
+#: mb_base/models/sitesettings.py:33
+msgid "extra meta html code"
+msgstr "Дополнительный мета-html-код"
+
+#: mb_base/models/sitesettings.py:33
+msgid "advanced meta tags on raw html"
+msgstr "Расширенные метатеги html"
+
+#: mb_base/models/sitesettings.py:42
+msgid "Site Settings"
+msgstr "Настройки сайта"
+
+#: mb_base/models/sitesettings.py:43
+msgid "Sites Settings"
+msgstr "Настройки сайта"
+
+#: mb_base/models/sitesettings.py:49
+msgid "social link"
+msgstr "Ссылка на социальную сеть"
+
+#: mb_base/models/sitesettings.py:49
+msgid "link to social network"
+msgstr "Ссылки на социальные сети"
+
+#: mb_base/models/sitesettings.py:50
+msgid "social button"
+msgstr "Социальные кнопки"
+
+#: mb_base/models/sitesettings.py:51
+msgid "button the social network"
+msgstr "Социальные кнопки"
+
+#: mb_base/models/sitesettings.py:54
+msgid "Social link"
+msgstr "Ссылка на социальную сеть"
+
+#: mb_base/models/sitesettings.py:55
+msgid "Social links"
+msgstr "Ссылки на социальные сети"
+
+#: mb_base/models/sitesettings.py:61
+msgid "phone number or email"
+msgstr "Телефон или адрес электронной почты"
+
+#: mb_base/models/sitesettings.py:64
+msgid "Contact phone or email"
+msgstr "Телефон или адрес электронной почты"
+
+#: mb_base/models/sitesettings.py:65
+msgid "Contact phones or emails"
+msgstr "Телефон или адрес электронной почты"
+
+#: mb_base/models/sitesettings.py:72
+msgid "link"
+msgstr "Ссылка"
+
+#: mb_base/models/sitesettings.py:75
+msgid "Advanced Link"
+msgstr "Дополнительная ссылка"
+
+#: mb_base/models/sitesettings.py:76
+msgid "Advanced Links"
+msgstr "Дополнительные ссылки"
+
+#: mb_base/pages/categorypage/models.py:28
+#: mb_base/plugins/categoryplugin/models.py:16
+msgid "Entities count in page"
+msgstr "Количество элементов на странице"
+
+#: mb_base/pages/categorypage/models.py:29
+#: mb_base/plugins/categoryplugin/models.py:17
+msgid "sort order"
+msgstr "Сортировка по-умолчанию"
+
+#: mb_base/pages/categorypage/models.py:31
+msgid "Show order chooser"
+msgstr "Отображать на странице элемент Сортировка"
+
+#: mb_base/pages/categorypage/models.py:32
+#: mb_base/plugins/categoryplugin/models.py:20
+msgid "entities view template"
+msgstr "Вид отображения элементов"
+
+#: mb_base/pages/categorypage/models.py:36
+msgid "Show date range"
+msgstr ""
+"Отображать фильтр по дате (не отображается, если  на странице не выводится "
+"рубрикатор)"
+
+#: mb_base/pages/categorypage/models.py:40
+msgid "category page"
+msgstr "Страница-категория (подборка)"
+
+#: mb_base/pages/categorypage/models.py:41
+msgid "Product category pages"
+msgstr "Страницы-категории элементов"
+
+#: mb_base/pages/categorypage/models.py:47
+msgid "operation and"
+msgstr "\"И\""
+
+#: mb_base/pages/categorypage/models.py:48
+msgid "operation or"
+msgstr "\"ИЛИ\""
+
+#: mb_base/pages/categorypage/models.py:52
+msgid "operation"
+msgstr "оператор"
+
+#: mb_base/pages/categorypage/models.py:62
+#: mb_base/pages/categorypage/models.py:87
+msgid "position"
+msgstr "должность"
+
+#: mb_base/pages/categorypage/models.py:67
+msgid "Category relation"
+msgstr "Выборка категории"
+
+#: mb_base/pages/categorypage/models.py:68
+msgid "Category relations"
+msgstr "Выборки категории"
+
+#: mb_base/pages/entitypage/models.py:13
+msgid "Entity page"
+msgstr "Страница объекта"
+
+#: mb_base/pages/entitypage/models.py:14
+msgid "Entity pages"
+msgstr "Страницы объектов"
+
+#: mb_base/pages/entitypage/templates/mb_base/pages/entitypage.html:45
+#: mb_base/templates/mb_base/base_entity.html:56
+#: mb_base/templates/mb_base/pages/side_simple_page.html:51
+#: mb_base/templates/mb_base/pages/simple_page.html:37
+msgid "Last modified date:"
+msgstr "Дата последнего изменения:"
+
+#: mb_base/pages/redirectpage/admin.py:9
+msgid "Redirect settings"
+msgstr "Настройки перенаправления"
+
+#: mb_base/pages/redirectpage/models.py:13
+msgid "Normal redirect"
+msgstr "Обычное перенаправление"
+
+#: mb_base/pages/redirectpage/models.py:14
+msgid "Permanent redirect (for SEO ranking)"
+msgstr "Перманентное перенаправление (для рейтинга SEO)"
+
+#: mb_base/pages/redirectpage/models.py:21
+msgid "New URL"
+msgstr "Новый URL"
+
+#: mb_base/pages/redirectpage/models.py:22
+msgid "Redirect type"
+msgstr "Тип переадресации"
+
+#: mb_base/pages/redirectpage/models.py:22
+msgid ""
+"Use 'normal redirect' unless you want to transfer SEO ranking to the new "
+"page."
+msgstr ""
+"Используйте 'Обычное перенаправление', если вы не хотите перенести рейтинг "
+"SEO на новую страницу"
+
+#: mb_base/pages/redirectpage/models.py:29
+msgid "Redirect"
+msgstr "Перенаправление"
+
+#: mb_base/pages/redirectpage/models.py:30
+msgid "Redirects"
+msgstr "Перенаправления"
+
+#: mb_base/plugins/accordionplugin/content_plugins.py:14
+#: mb_base/plugins/bannerplugin/content_plugins.py:17
+#: mb_base/plugins/fileplugin/content_plugins.py:15
+#: mb_base/plugins/footsubmenuplugin/content_plugins.py:12
+#: mb_base/plugins/formplugin/content_plugins.py:27
+#: mb_base/plugins/mapplugin/content_plugins.py:9
+#: mb_base/plugins/submenuplugin/content_plugins.py:12
+#: mb_base/plugins/testplugin/content_plugins.py:17
+#: mb_base/plugins/videoplugin/content_plugins.py:13
+msgid "Advanced"
+msgstr "Расширенный"
+
+#: mb_base/plugins/accordionplugin/models.py:13
+msgid "Accordion"
+msgstr "Аккордеон"
+
+#: mb_base/plugins/accordionplugin/models.py:14
+msgid "Accordions"
+msgstr "Аккордеоны"
+
+#: mb_base/plugins/bannerplugin/forms.py:17
+#: mb_base/plugins/bannerplugin/models.py:18
+#: mb_base/plugins/bannerplugin/models.py:36
+#: mb_base/plugins/bannerplugin/models.py:39
+#: mb_base/plugins/bannerplugin/models.py:40
+msgid "Banner"
+msgstr "Баннер"
+
+#: mb_base/plugins/bannerplugin/models.py:11
+msgid "Banner title"
+msgstr "Заголовок баннера"
+
+#: mb_base/plugins/bannerplugin/models.py:14
+msgid "Banner item"
+msgstr "Элемент баннера"
+
+#: mb_base/plugins/bannerplugin/models.py:15
+msgid "Banner items"
+msgstr "Элементы баннера"
+
+#: mb_base/plugins/bannerplugin/models.py:19
+#: mb_base/plugins/pictureplugin/models.py:18
+#: mb_base/plugins/testplugin/models.py:24
+msgid "Image"
+msgstr "Изображение"
+
+#: mb_base/plugins/bannerplugin/models.py:20
+#: mb_base/plugins/pictureplugin/models.py:19
+#: mb_base/plugins/testplugin/models.py:25
+msgid "Caption"
+msgstr "Подпись"
+
+#: mb_base/plugins/bannerplugin/models.py:22
+#: mb_base/plugins/pictureplugin/models.py:22
+#: mb_base/plugins/testplugin/models.py:27
+msgid "URL"
+msgstr "URL"
+
+#: mb_base/plugins/bannerplugin/models.py:26
+msgid "Banner result"
+msgstr "Элемент баннера"
+
+#: mb_base/plugins/bannerplugin/models.py:27
+msgid "Banner results"
+msgstr "Элементы баннера"
+
+#: mb_base/plugins/bannerplugin/models.py:35
+msgid "banner images count"
+msgstr "Количество баннеров"
+
+#: mb_base/plugins/categoryplugin/appsettings.py:5
+msgid "fixed height list template"
+msgstr "Списком (фиксированная высота блока и прокрутка)"
+
+#: mb_base/plugins/categoryplugin/appsettings.py:7
+msgid "icons template"
+msgstr "Слайдер для иконок (на главной)"
+
+#: mb_base/plugins/categoryplugin/appsettings.py:8
+msgid "plate template"
+msgstr "Плитка для услуг (на главной)"
+
+#: mb_base/plugins/categoryplugin/appsettings.py:9
+msgid "First block preview template"
+msgstr "Слайдер для пресс-центра (на главной)"
+
+#: mb_base/plugins/categoryplugin/content_plugins.py:15
+#: mb_base/plugins/documentplugin/content_plugins.py:13
+#: mb_base/plugins/eventplugin/content_plugins.py:13
+#: mb_base/plugins/organisationplugin/content_plugins.py:13
+#: mb_base/plugins/orgunitplugin/content_plugins.py:13
+#: mb_base/plugins/personplugin/content_plugins.py:13
+#: mb_base/plugins/serviceplugin/content_plugins.py:13
+msgid "Objects"
+msgstr "Объекты"
+
+#: mb_base/plugins/categoryplugin/models.py:33
+msgid "Category"
+msgstr "Категория"
+
+#: mb_base/plugins/categoryplugin/models.py:34
+msgid "Categorys"
+msgstr "Категории"
+
+#: mb_base/plugins/documentplugin/models.py:19
+#: mb_base/plugins/eventplugin/models.py:19
+#: mb_base/plugins/organisationplugin/models.py:19
+#: mb_base/plugins/orgunitplugin/models.py:19
+#: mb_base/plugins/personplugin/models.py:19
+#: mb_base/plugins/pictureplugin/models.py:21
+#: mb_base/plugins/serviceplugin/models.py:18
+msgid "Template"
+msgstr "Вид"
+
+#: mb_base/plugins/documentplugin/templates/documentplugin/documentplugin.html:20
+#: mb_base/plugins/serviceplugin/templates/serviceplugin/list_serviceplugin.html:25
+#: mb_base/plugins/serviceplugin/templates/serviceplugin/list_serviceplugin.html:59
+#: mb_base/templates/mb_base/entities/service.html:25
+#: mb_base/templates/mb_base/entities_app/partials/base_entity_list.html:12
+#: mb_base/templates/mb_base/entities_app/partials/document_entity_list.html:8
+#: mb_base/templates/mb_base/entities_app/partials/service_entity_list.html:17
+msgid "Published"
+msgstr "Опубликовано"
+
+#: mb_base/plugins/documentplugin/templates/documentplugin/documentplugin.html:23
+#: mb_base/templates/mb_base/entities/document.html:12
+#: mb_base/templates/mb_base/entities/service.html:28
+#: mb_base/templates/mb_base/entities_app/partials/base_entity_list.html:16
+#: mb_base/templates/mb_base/entities_app/partials/document_entity_list.html:11
+msgid "Download"
+msgstr "Скачать"
+
+#: mb_base/plugins/documentplugin/templates/documentplugin/documentplugin.html:23
+#: mb_base/templates/mb_base/entities/service.html:28
+#: mb_base/templates/mb_base/entities_app/partials/base_entity_list.html:16
+#: mb_base/templates/mb_base/entities_app/partials/document_entity_block.html:13
+#: mb_base/templates/mb_base/entities_app/partials/document_entity_list.html:11
+msgid "Open"
+msgstr "Открыть"
+
+#: mb_base/plugins/fileplugin/models.py:22
+msgid "File"
+msgstr "Файл"
+
+#: mb_base/plugins/fileplugin/models.py:23
+msgid "Files"
+msgstr "Файлы"
+
+#: mb_base/plugins/fileplugin/templates/fileplugin/fileblock.html:12
+msgid "Publication date"
+msgstr "Дата публикации"
+
+#: mb_base/plugins/fileplugin/templates/fileplugin/fileblock.html:15
+msgid "Save"
+msgstr "Сохранить"
+
+#: mb_base/plugins/footsubmenuplugin/models.py:14
+msgid "another title"
+msgstr "Альтернативный заголовок"
+
+#: mb_base/plugins/footsubmenuplugin/models.py:15
+msgid "page parent"
+msgstr "Родительская страница"
+
+#: mb_base/plugins/footsubmenuplugin/models.py:19
+msgid "Footer sub menu"
+msgstr "Нижнее подменю"
+
+#: mb_base/plugins/footsubmenuplugin/models.py:20
+msgid "Footer sub menus"
+msgstr "Нижние подменю"
+
+#: mb_base/plugins/formplugin/forms.py:15
+#: mb_base/plugins/formplugin/models.py:10
+msgid "Form"
+msgstr "Форма"
+
+#: mb_base/plugins/formplugin/models.py:14
+msgid "Form link"
+msgstr "Ссылка на форму"
+
+#: mb_base/plugins/formplugin/models.py:15
+msgid "Form links"
+msgstr "Ссылки на форму"
+
+#: mb_base/plugins/mapplugin/appsettings.py:6
+msgid "public map"
+msgstr "Открытая карта"
+
+#: mb_base/plugins/mapplugin/appsettings.py:7
+msgid "schema map"
+msgstr "Схема карты"
+
+#: mb_base/plugins/mapplugin/appsettings.py:8
+msgid "satellite map"
+msgstr "Спутниковая карта"
+
+#: mb_base/plugins/mapplugin/appsettings.py:9
+msgid "hybrid map"
+msgstr "Гибридная карта"
+
+#: mb_base/plugins/mapplugin/appsettings.py:13
+msgid "red"
+msgstr "Красный"
+
+#: mb_base/plugins/mapplugin/appsettings.py:14
+msgid "green"
+msgstr "Зеленый"
+
+#: mb_base/plugins/mapplugin/appsettings.py:15
+msgid "blue"
+msgstr "Синий"
+
+#: mb_base/plugins/mapplugin/appsettings.py:16
+msgid "yellow"
+msgstr "Желтый"
+
+#: mb_base/plugins/mapplugin/models.py:9
+msgid "caption"
+msgstr "Подпись"
+
+#: mb_base/plugins/mapplugin/models.py:10
+msgid "address"
+msgstr "Адрес"
+
+#: mb_base/plugins/mapplugin/models.py:11
+msgid "latitude"
+msgstr "Широта"
+
+#: mb_base/plugins/mapplugin/models.py:12
+msgid "longitude"
+msgstr "Долгота"
+
+#: mb_base/plugins/mapplugin/models.py:13
+msgid "zoom"
+msgstr "Масштабирование"
+
+#: mb_base/plugins/mapplugin/models.py:14
+msgid "map_type"
+msgstr "Тип карты"
+
+#: mb_base/plugins/mapplugin/models.py:16
+msgid "marker color"
+msgstr "Цвет маркера"
+
+#: mb_base/plugins/mapplugin/models.py:20
+msgid "Yandex Map"
+msgstr "Яндекс.Карта"
+
+#: mb_base/plugins/mapplugin/models.py:21
+msgid "Yandex Maps"
+msgstr "Яндекс.Карты"
+
+#: mb_base/plugins/organisationplugin/models.py:25
+msgid "Organisations"
+msgstr "Организации"
+
+#: mb_base/plugins/orgunitplugin/appsettings.py:5
+#: mb_base/plugins/orgunitplugin/forms.py:17
+#: mb_base/plugins/orgunitplugin/models.py:24
+msgid "Org Unit"
+msgstr "Структурная единица"
+
+#: mb_base/plugins/orgunitplugin/appsettings.py:6
+msgid "Org Unit Contact "
+msgstr "Контакты Структурной единицы"
+
+#: mb_base/plugins/orgunitplugin/models.py:25
+msgid "Org Units"
+msgstr "Структурные единицы"
+
+#: mb_base/plugins/pictureplugin/appsettings.py:5
+msgid "Thumbnail picture / Gallery"
+msgstr "Уменьшенное изображение / Галерея"
+
+#: mb_base/plugins/pictureplugin/content_plugins.py:14
+#: mb_base/plugins/textplugin/content_plugins.py:12
+#: mb_base/plugins/textplugin/content_plugins.py:13
+#: mb_base/search/templates/search/search.html:11
+msgid "Main"
+msgstr "Главная"
+
+#: mb_base/plugins/pictureplugin/models.py:25
+msgid "Picture"
+msgstr "Изображение"
+
+#: mb_base/plugins/pictureplugin/models.py:26
+msgid "Pictures"
+msgstr "Изображения"
+
+#: mb_base/plugins/serviceplugin/appsettings.py:5
+msgid "Service block"
+msgstr "Услуги плиткой"
+
+#: mb_base/plugins/serviceplugin/appsettings.py:6
+msgid "Service list"
+msgstr "Услуги списком"
+
+#: mb_base/plugins/submenuplugin/appsettings.py:6
+msgid "Default sub menu"
+msgstr "Подменю по умолчанию"
+
+#: mb_base/plugins/submenuplugin/appsettings.py:7
+msgid "As string submenu"
+msgstr "Подменю в виде строки"
+
+#: mb_base/plugins/submenuplugin/models.py:13
+msgid "template"
+msgstr "Вид"
+
+#: mb_base/plugins/submenuplugin/models.py:18
+msgid "Sub menu"
+msgstr "Подменю"
+
+#: mb_base/plugins/submenuplugin/models.py:19
+msgid "Sub menus"
+msgstr "Подменю"
+
+#: mb_base/plugins/testplugin/models.py:16
+#: mb_base/plugins/textplugin/models.py:17
+msgid "text"
+msgstr "Текст"
+
+#: mb_base/plugins/testplugin/models.py:23
+#: mb_base/plugins/testplugin/models.py:41
+msgid "Quiz"
+msgstr "Опрос"
+
+#: mb_base/plugins/testplugin/models.py:31
+msgid "Slider result"
+msgstr "Элемент слайдера"
+
+#: mb_base/plugins/testplugin/models.py:32
+msgid "Slider results"
+msgstr "Элементы слайдера"
+
+#: mb_base/plugins/testplugin/models.py:37
+msgid "count"
+msgstr "Счет"
+
+#: mb_base/plugins/testplugin/models.py:38
+msgid "Slider"
+msgstr "Слайдер"
+
+#: mb_base/plugins/testplugin/models.py:42
+msgid "Quizzes"
+msgstr "Опросы"
+
+#: mb_base/plugins/textplugin/models.py:21
+msgid "Text block"
+msgstr "Текстовый блок"
+
+#: mb_base/plugins/textplugin/models.py:22
+msgid "Text blocks"
+msgstr "Текстовые блоки"
+
+#: mb_base/plugins/videoplugin/models.py:6
+msgid "Youtube video code"
+msgstr "Код видею с Youtube"
+
+#: mb_base/plugins/videoplugin/models.py:7
+msgid "For example: -ZSyodOqajM"
+msgstr "Например: -ZSyodOqajM"
+
+#: mb_base/plugins/videoplugin/models.py:8
+msgid "video width"
+msgstr "Продолжительность видео"
+
+#: mb_base/plugins/videoplugin/models.py:14
+msgid "Video"
+msgstr "Видео"
+
+#: mb_base/plugins/videoplugin/models.py:15
+msgid "Videos"
+msgstr "Видео"
+
+#: mb_base/search/forms.py:8
+msgid "Order by Relevance"
+msgstr "Сортировать по релевантности"
+
+#: mb_base/search/forms.py:9
+msgid "Order by Date"
+msgstr "Сортировать по дате"
+
+#: mb_base/search/forms.py:17
+msgid "Sort order"
+msgstr "Порядок сортировки"
+
+#: mb_base/search/templates/search/search.html:3
+#: mb_base/search/templates/search/search.html:12
+#: mb_base/search/templates/search/search.html:15
+#: mb_base/search/templates/search/search.html:21
+#: mb_base/search/templates/search/search_form.html:109
+msgid "Search"
+msgstr "Поиск"
+
+#: mb_base/search/templates/search/search.html:71
+#: mb_base/search/templates/search/search_form.html:85
+msgid "No results for search"
+msgstr "Поиск не дал результатов"
+
+#: mb_base/search/templates/search/search.html:85
+#: mb_base/search/templates/search/search.html:89
+msgid "Previews"
+msgstr "Превью"
+
+#: mb_base/search/templates/search/search.html:93
+msgid "Page"
+msgstr "Страница"
+
+#: mb_base/search/templates/search/search.html:93
+#: mb_base/templates/mb_base/entities_app/partials/statistic_info.html:3
+msgid "of"
+msgstr "из"
+
+#: mb_base/search/templates/search/search.html:107
+#: mb_base/search/templates/search/search.html:111
+#: mb_base/templates/mb_base/entities_app/partials/pagination.html:20
+#: mb_base/templates/mb_base/entities_app/partials/pagination.html:22
+#: mb_base/templates/mb_base/entities_app/partials/pagination_outside_plugin.html:16
+#: mb_base/templates/mb_base/entities_app/partials/pagination_outside_plugin.html:19
+msgid "Next"
+msgstr "Следующая"
+
+#: mb_base/templates/html/formdefinition/forms/bs3_modal.html:24
+#: mb_base/templates/html/formdefinition/forms/bs3_modal.html:33
+#: mb_base/templates/html/formdefinition/forms/custom.html:23
+#: mb_base/templates/html/formdefinition/forms/custom.html:32
+#: templates/html/formdefinition/forms/bs3_modal.html:24
+#: templates/html/formdefinition/forms/bs3_modal.html:33
+#: templates/html/formdefinition/forms/custom.html:23
+#: templates/html/formdefinition/forms/custom.html:32
+msgid "Warning!"
+msgstr "Предупреждение!"
+
+#: mb_base/templates/html/formdefinition/forms/bs3_modal.html:86
+#: mb_base/templates/html/formdefinition/forms/custom.html:85
+#: templates/html/formdefinition/forms/bs3_modal.html:86
+#: templates/html/formdefinition/forms/custom.html:85
+msgid "Close"
+msgstr "Закрыть"
+
+#: mb_base/templates/html/formdefinition/forms/includes/submit.html:2
+msgid "Submit"
+msgstr "Отправить"
+
+#: mb_base/templates/mb_base/entities/_sub_orgunit.html:26
+#: mb_base/templates/mb_base/entities/organisation.html:40
+#: mb_base/templates/mb_base/entities/orgunit.html:62
+#: mb_base/templates/mb_base/entities/orgunit.html:106
+#: mb_base/templates/mb_base/entities/person.html:24
+#: mb_base/templates/mb_base/entities/service.html:96
+msgid "Tel:"
+msgstr "Тел:"
+
+#: mb_base/templates/mb_base/entities/organisation.html:47
+#: mb_base/templates/mb_base/entities/orgunit.html:62
+#: mb_base/templates/mb_base/entities/orgunit.html:106
+#: mb_base/templates/mb_base/entities/person.html:31
+#: mb_base/templates/mb_base/entities/service.html:103
+msgid "Fax:"
+msgstr "Факс:"
+
+#: mb_base/templates/mb_base/entities/organisation.html:61
+#: mb_base/templates/mb_base/entities/orgunit.html:72
+#: mb_base/templates/mb_base/entities/person.html:45
+#: mb_base/templates/mb_base/entities/service.html:117
+msgid "time of receipt:"
+msgstr "График приема: "
+
+#: mb_base/templates/mb_base/entities/service.html:43
+msgid "Electronic address"
+msgstr "Электронный адрес"
+
+#: mb_base/templates/mb_base/entities/service.html:61
+msgid "The provision of services"
+msgstr "Услугу предоставляет"
+
+#: mb_base/templates/mb_base/entities_app/partials/base_entity_list.html:10
+#: mb_base/templates/mb_base/entities_app/partials/date_range.html:3
+msgid "Date"
+msgstr "Дата"
+
+#: mb_base/templates/mb_base/entities_app/partials/date_range.html:3
+msgid "Clear"
+msgstr "Очистить"
+
+#: mb_base/templates/mb_base/entities_app/partials/pagination.html:6
+#: mb_base/templates/mb_base/entities_app/partials/pagination.html:8
+#: mb_base/templates/mb_base/entities_app/partials/pagination_outside_plugin.html:6
+#: mb_base/templates/mb_base/entities_app/partials/pagination_outside_plugin.html:11
+msgid "Previous"
+msgstr "Предыдущая"
+
+#: mb_base/templates/mb_base/entities_app/partials/pagination.html:13
+msgid "Current"
+msgstr "Текущая"
+
+#: mb_base/templates/mb_base/entities_app/partials/statistic_info.html:3
+msgid "Items"
+msgstr "Элемент(-ов)"
+
+#: mb_base/templates/mb_base/menus/breadcrumb.html:4
+#: mb_base/templates/mb_base/menus/entity_breadcrumb.html:2
+#: mb_base/templates/mb_base/menus/orgunit_breadcrumb.html:2
+#: mb_base/templates/mb_base/page_patials/_header.html:8
+msgid "Home"
+msgstr "Главная"
+
+#: mb_base/templates/mb_base/page_patials/_footer.html:70
+msgid "to Up"
+msgstr "Вверх"
+
+#: mb_base/templates/mb_base/page_patials/_footer.html:72
+msgid "Sitemap"
+msgstr "Карта сайта"
+
+#: mb_base/admin/actions:57
+msgid "Addad rubrics"
+msgstr "Добавление рубрик"
+
+#: mb_base/admin/actions:60
+msgid "Add rubrics"
+msgstr "Добавить рубрики"
+
+#: mb_base/admin/actions:84
+msgid "Remove rubrics"
+msgstr "Удалить рубрики"
+
+#: mb_base/admin/actions:91
+msgid "Mark selected elements active"
+msgstr "Сделать отмеченные элементы активными"
+
+#: mb_base/admin/actions:91
+msgid "Mark selected elements disabled"
+msgstr "Сделать отмеченные элементы неактивными"
+
+msgid "Added in rubrics"
+msgstr "Добавленные рубрики"
+
+msgid "External link"
+msgstr "Внешняя ссылка"
+
+msgid "Administration Official portals"
+msgstr "Администрирование официальных сайтов"
+
+#: mb_base/plugins/orgunitplugin/templates/orgunitplugin/schedule_of_orgunitplugin:6
+msgid "Name Position"
+msgstr "Ф.И.О. Должность"
+
+#: mb_base/plugins/orgunitplugin/templates/orgunitplugin/schedule_of_orgunitplugin:8
+msgid "The receive location"
+msgstr "Место приема"
+
+msgid "Pages"
+msgstr "Страницы"
+
+msgid "Layouts"
+msgstr "Шаблоны"
+
+msgid "Layout"
+msgstr "Шаблон"
+
+msgid "Publications"
+msgstr "Публикации"
+
+msgid "Management"
+msgstr "Управление"
+
+msgid "Form logs"
+msgstr "Входящие обращения граждан"
+
+msgid "SEO settings"
+msgstr "Настройки SEO"
+
+msgid "Menu structure"
+msgstr "Структура меню"
+
+msgid "Publication settings"
+msgstr "Настройки публикации страницы"
+
+msgid "You can also change the parent by dragging the page in the list."
+msgstr "Вы можете изменить родительскую страницу перетаскиванием страницы в списке."
+
+msgid "publication date"
+msgstr "Дата публикации"
+
+msgid "publication end date"
+msgstr "Дата снятия с публикации"
+
+msgid "Override URL"
+msgstr "Изменить URL"
+
+msgid "keywords"
+msgstr "Ключевые слова"
+
+msgid "include in search engine sitemaps"
+msgstr "Включить в sitemap для поиска"
+
+msgid "description"
+msgstr "Описание"
+
+msgid "page title"
+msgstr "Заголовок страницы"
+
+msgid "When this field is not filled in, the menu title text will be used."
+msgstr "Если это поле не заполнено, будет использован текст из меню"
+
+msgid "When the page should go live, status must be \"Published\"."
+msgstr "Для того чтобы, страница была активна, необходимо чтобы её статус был \"Опубликовано\"."
+
+msgid "Draft"
+msgstr "Проект"
+
+msgid "status"
+msgstr "Статус"
+
+msgid "show in navigation"
+msgstr "Показывать в меню"
+
+msgid "page type"
+msgstr "Тип страницы"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "type"
+msgstr "Тип"
+
+msgid "External URL"
+msgstr "Внешняя ссылка"
+
+msgid "Site"
+msgstr "Сайт"
+
+msgid "Realt"
+msgstr "Недвижимость"
+
+msgid "price"
+msgstr "Цена"
+
+msgid "rub"
+msgstr "руб."
+
+msgid "Object type"
+msgstr "Тип объекта"
+
+msgid "Objects type"
+msgstr "Типы объектов"
+
+msgid "objects type"
+msgstr "Типы объектов"
+
+msgid "Adress"
+msgstr "Адрес"
+
+msgid "Object information"
+msgstr "Информация об объекте"
+
+msgid "Rent information"
+msgstr "Информация об аренде"
+
+msgid "region"
+msgstr "Регион (Область)"
+
+msgid "regions"
+msgstr "Регионы (Области)"
+
+msgid "state"
+msgstr "Район"
+
+msgid "states"
+msgstr "Районы"
+
+msgid "city"
+msgstr "Город (Село)"
+
+msgid "cityes"
+msgstr "Города (Села)"
+
+msgid "city state"
+msgstr "Район города (села)"
+
+msgid "street"
+msgstr "Улица"
+
+msgid "streets"
+msgstr "Улицы"
+
+msgid "house on street"
+msgstr "Дом №"
+
+msgid "room count"
+msgstr "Кол-во комнат"
+
+msgid "house type"
+msgstr "Тип дома"
+
+msgid "floor"
+msgstr "Этаж"
+
+msgid "floor count"
+msgstr "Всего этажей"
+
+msgid "total area"
+msgstr "Общая площадь"
+
+msgid "floor area"
+msgstr "Жилая площадь"
+
+msgid "kitchen area"
+msgstr "Площадь кухни"
+
+msgid "bathroom"
+msgstr "Санузел"
+
+msgid "furniture"
+msgstr "Мебель"
+
+msgid "home appliances"
+msgstr "Бытавая техника"
+
+msgid "Agent"
+msgstr "Агент"
+
+msgid "rent type"
+msgstr "Тип аренды"
+
+msgid "rooms surrend"
+msgstr "Комнат сдается"
+
+msgid "flatmates"
+msgstr "Соседи"
+
+msgid "owner name"
+msgstr "Ф.И.О. владельца"
+
+msgid "owner phone"
+msgstr "Контакты владельца"
+
+msgid "To region"
+msgstr "По региону (области)"
+
+msgid "To state"
+msgstr "По району"
+
+msgid "To price from / to"
+msgstr "По цене от / до"
+
+msgid "To city"
+msgstr "По городу (нас. пункт)"
+
+msgid "To city state"
+msgstr "По району нас. пункта"
+
+msgid "My business"
+msgstr "Мой бизнес"
+
+msgid "Occasion"
+msgstr "Мероприятие"
+
+msgid "Occasions"
+msgstr "Мероприятия"
+
+msgid "Useful links"
+msgstr "Полезные ссылки"
+
+msgid "Useful link"
+msgstr "Полезная ссылка"
+
+msgid "service"
+msgstr "Услуга"
+
+msgid "Services"
+msgstr "Услуги"
+
+msgid "Profile"
+msgstr "Профиль пользователя"
+
+msgid "Profiles"
+msgstr "Профили пользователей"
+
+msgid "profile"
+msgstr "Профиль пользователя"
+
+msgid "profiles"
+msgstr "Профили пользователей"
+
+msgid "Cabinet"
+msgstr "Личный кабинет"
+
+msgid "Create"
+msgstr "Создать"
+
+msgid "Create education cource"
+msgstr "Создание образовательного курса"
+
+msgid "Educations"
+msgstr "Образовательный курс"
+
+msgid "Education cources"
+msgstr "Добавление лекции"
+
+msgid "Education cource"
+msgstr "Образовательный курс"
+
+msgid "User cource lists"
+msgstr "Список пользователей курса"
+
+msgid "Create form for service"
+msgstr "Создание формы для услуги"
+
+msgid "Business categories"
+msgstr "Бизнес-категории"
+
+msgid "Base Business Categoryes"
+msgstr "Базовые бизнес-категории"
+
+msgid "Special test"
+msgstr "Специальный тест"
+
+msgid "Special cources"
+msgstr "Создание теста"
+
+msgid "Special cource logs"
+msgstr "Зарегистрировавшиеся для теста"
+
+msgid "Templates"
+msgstr "Формы"
+
+msgid "Template fields"
+msgstr "Поля форм"
+
+
+msgid "Field parameters"
+msgstr "Параметры полей"
+
+msgid "Records"
+msgstr "Записи"
+
+msgid "Notifications"
+msgstr "Уведомления"
+
+msgid "Notification"
+msgstr "Уведомление"
+
+msgid "Questions"
+msgstr "Вопросы"
+
+msgid "Tickets"
+msgstr "Сообщения"
+
+msgid "List tickets"
+msgstr "Список сообщений"
+
+msgid "Feedback forms and data"
+msgstr "Формы обратной связи и данные"
+
+msgid "Apps Variants"
+msgstr "Варианты приложений"
+
+msgid "No items added to this field yet."
+msgstr "Пока ничего не добавлено"
+
+msgid "Rubricplugin"
+msgstr "Рубрики"
+
+msgid "Subpages"
+msgstr "Подстраницы"
+
+msgid "Programming"
+msgstr "Программирование"
+
+msgid "Code snippet"
+msgstr "Фрагмент кода"
+
+msgid "GitHub Gist snippet"
+msgstr "Фрагмент GitHub Gist"
+
+msgid "Main slider"
+msgstr "Основной слайдер"
+
+msgid "Occasion adress"
+msgstr "Адрес мероприятия"
+
+msgid "Registration status"
+msgstr "Возможность регистрации"
+
+msgid "End registrations date"
+msgstr "Когда закрывается регистрация"
+
+msgid "Online status"
+msgstr "Онлайн"
+
+msgid "Add full description of the occasion"
+msgstr "Здесь добавьте полное описание мероприятия"
+
+msgid "Annotation of the occasion"
+msgstr "Аннотация к мероприятию"
+
+msgid "Occasion title"
+msgstr "Название мероприятия"
+
+msgid "Business category"
+msgstr "Бизнес-категории"
+
+msgid "Organisation service"
+msgstr "Организация оказывающая услугу"
+
+msgid "Contact person"
+msgstr "Контактное лицо"
+
+msgid "On ticket"
+msgstr "В форме чата"
+
+msgid "Service_form"
+msgstr "Форма для услуги"
+
+msgid "User manage service"
+msgstr "Ответственный за услугу"
+
+msgid "Group use service"
+msgstr "Кто может использовать услугу"
+
+msgid "Form for service"
+msgstr "Форма для услуги"
+
+msgid "Service docs"
+msgstr "Документы для услуги"
+
+msgid "Commercial companies"
+msgstr ""
+
+msgid "File for service"
+msgstr "Файл для услуги"
+
+msgid "Organisation name"
+msgstr "Наименование организации"
+
+msgid "Additional content"
+msgstr "Дополнительный контент"
+
+msgid "Return to uploads"
+msgstr "Вернуться к загрузкам"
+
+msgid "The slug is used in the URL of the page"
+msgstr "Будет использовано в адресе страницы"
+
+msgid "Sub title"
+msgstr "Подзаголовок"
+
+msgid "Override the target URL. Be sure to include slashes at the beginning and at the end if it is a local URL. This affects both the navigation and subpages' URLs."
+msgstr "Переопределите целевой URL. Не забудьте включить косую черту в начале и в конце, если это локальный URL. Это влияет как на навигацию, так и на URL подстраниц."
+
+msgid "Example image"
+msgstr "Изображение по умолчанию"
+
+msgid "This allows social media sites to pick a default image"
+msgstr "Это позволяет сайтам социальных сетей выбирать изображение по умолчанию"
+
+msgid "Key"
+msgstr "Ключевое значение"
+
+msgid "A short name to identify the layout programmatically"
+msgstr "Короткое имя для программной идентификации макета"
+
+msgid "Template file"
+msgstr "Файл шаблона"
+
+msgid "Education title"
+msgstr "Название курса"
+
+msgid "What is issued on the basis of the course?"
+msgstr "Что дается посдле прохождения курса"
+
+msgid "What is this course about"
+msgstr "О чем курс"
+
+msgid "Who the course"
+msgstr "Для кого курс"
+
+msgid "Lessons count"
+msgstr "Количество лекций"
+
+msgid "Tasks count"
+msgstr "Количество заданий"
+
+msgid "Time for complite"
+msgstr "Время для прохождения"
+
+msgid "User manage education"
+msgstr "Ответственный за курс"
+
+msgid "Cource"
+msgstr "Курс"
+
+msgid "Test cource"
+msgstr "Подключить курс"
+
+msgid "Experts"
+msgstr "Эксперты"
+
+msgid "FIO"
+msgstr "ФИО"
+
+msgid "Expert"
+msgstr "Эксперт"
+
+msgid "Add full description of the education"
+msgstr "Добавьте полное описание курса"
+
+msgid "Unique word indificator for education (latin charset without spaces)"
+msgstr "Уникальное слово идентификатор для курса (латинскими буквами, без пробелов)"
+
+msgid "Education blocks"
+msgstr "Образовательные блоки"
+
+msgid "Education block"
+msgstr "Образовательный блок"
+
+msgid "Npp"
+msgstr "Порядковый номер"
+
+msgid "Lections"
+msgstr "Лекции"
+
+msgid "Lection"
+msgstr "Лекция"
+
+msgid "Lecton number"
+msgstr "Номер лекции"
+
+msgid "Title for lection"
+msgstr "Тема лекции"
+
+msgid "Lection text"
+msgstr "Текст лекции"
+
+msgid "Files for lection"
+msgstr "Сопроводительные файлы к лекции"
+
+msgid "Ball for comlite lection"
+msgstr "Количество правильных ответов для прохождения лекции"
+
+msgid "Author lection FIO"
+msgstr "Лектор ФИ"
+
+msgid "Description for author"
+msgstr "Должность лектора"
+
+msgid "Online certificate"
+msgstr "Онлайн сертификат"
+
+msgid "This image used in list as main image of author"
+msgstr "Фото лектора"
+
+msgid "Tests for lections"
+msgstr "Тест для лекции"
+
+msgid "Test For Lection"
+msgstr "Тест для лекции"
+
+msgid "Title for question"
+msgstr "Заколовок вопроса"
+
+msgid "Answers for tests"
+msgstr "Варианты ответов"
+
+msgid "Answer For Test"
+msgstr "Ответ на тест"
+
+msgid "Answer"
+msgstr "Ответ"
+
+msgid "Ball for answer"
+msgstr "Баллы за ответ"
+
+msgid "Real true answer"
+msgstr "Верный ответ"
+
+msgid "Tag"
+msgstr "Тэг"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Required "
+msgstr "Обязательный для заполнения"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "TextAria"
+msgstr "Текстовый блок"
+
+msgid "Choices"
+msgstr "Выбор"
+
+msgid "Multichoice"
+msgstr "Выбор нескольких значений"
+
+msgid "Forms_Services"
+msgstr "Форма для услуги"
+
+msgid "Node type"
+msgstr "Тип"
+
+msgid "Rayon"
+msgstr "Район"
+
+msgid "Categories"
+msgstr "Категории"
+
+msgid "Project title"
+msgstr "Название объекта"
+
+msgid "Project"
+msgstr "Объект"
+
+msgid "Projects"
+msgstr "Объекты"
+
+msgid "Project_Map"
+msgstr "Карта объектов"
+
+msgid "Rayones"
+msgstr "Районы"
+
+msgid "Gerb Image"
+msgstr "Герб"
+
+msgid "Coordinates"
+msgstr "Координаты"

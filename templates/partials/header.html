@@ -1,0 +1,84 @@
+{% load staticfiles i18n %}
+<div class="header container-fluid">
+    <div class="row h-100">
+        {% if setitems.items.logo %}
+            <div class="col-auto col-lg-3">
+                <a href="/" class="text-decoration-none header__logo-link">
+                    <picture>
+                        {% if setitems.items.mobile_logo %}
+                            <source srcset="{{ setitems.items.mobile_logo.url }}" media="(max-width: 1023px)">
+                        {% endif %}
+                        <img class="header__logo" src="{{ setitems.items.logo.url }}">
+                    </picture>
+                </a>
+            </div>
+        {% endif %}
+        {% if setitems.items.head_first_title or setitems.items.head_two_title or setitems.items.head_three_title or setitems.items.head_four_title or setitems.items.sub_title %}
+            <div class="col-7 col-lg-6 ml-auto">
+                <div class="ml-auto header__info">
+                    <div class="row">
+                        {% if setitems.items.head_first_title %}
+                            <div class="col-3">
+                                <div class="header__info-item">
+                                    <div>
+                                        <p class="header__first-title">{{ setitems.items.head_first_title }}</p>
+                                        {% if setitems.items.head_first_description %}
+                                            <p class="header__first-description">{{ setitems.items.head_first_description }}</p>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        {% endif %}
+                        {% if setitems.items.head_two_title %}
+                            <div class="col-3">
+                                <div class="header__info-item">
+                                    <div>
+                                        <p class="header__first-title">{{ setitems.items.head_two_title }}</p>
+                                        {% if setitems.items.head_two_description %}
+                                            <p class="header__first-description">{{ setitems.items.head_two_description }}</p>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        {% endif %}
+                        {% if setitems.items.head_three_title %}
+                            <div class="col-3">
+                                <div class="header__info-item">
+                                    <div>
+                                        <p class="header__first-title">{{ setitems.items.head_three_title }}</p>
+                                        {% if setitems.items.head_three_description %}
+                                            <p class="header__first-description">{{ setitems.items.head_three_description }}</p>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        {% endif %}
+                        {% if setitems.items.head_four_title %}
+                            <div class="col-3">
+                                <div class="header__info-item">
+                                    <div>
+                                        <p class="header__first-title">{{ setitems.items.head_four_title }}</p>
+                                        {% if setitems.items.head_four_description %}
+                                            <p class="header__first-description">{{ setitems.items.head_four_description }}</p>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% if setitems.items.sub_title %}
+
+            {% endif %}
+        {% endif %}
+        <div class="col-lg-3 d-none">
+            <div>
+                <img src="{% static 'img/en.svg' %}" alt="en"> en
+            </div>
+            <div>
+                <img src="{% static 'img/ru.svg' %}" alt="ru"> ru
+            </div>
+        </div>
+    </div>
+</div>

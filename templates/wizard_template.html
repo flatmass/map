@@ -1,0 +1,23 @@
+{% load static %}
+{{ wizard.form.media }}
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <h3 style="line-height: 1.3rem;">{% block title_wizard %}{% endblock %}</h3>
+        <form class="well form-horizontal" action="." onsubmit="{% block action %}submitFilter(this){% endblock %}" method="POST">{% csrf_token  %}
+            {{ wizard.management_form }}
+            <div class="control-group">
+              {% block form_wizard %}
+
+              {% endblock %}
+              {% block button_wizard_2 %}
+
+                {% endblock %}
+            </div>
+            <div class="form-actions">
+                {% block button_wizard %}
+
+                {% endblock %}
+            </div>
+        </form>
+    </div>
+</div>

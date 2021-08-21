@@ -1,0 +1,8 @@
+<h3>{{ rout.title }}</h3>
+<p class="rout__description">{{ rout.description }}</p>
+<ul class="list-unstyled">
+    <li class="point__item"><span class="point__num"></span><a href="#" class="point__title">{{ from_obj }}</a></li>
+    {% for i in projects.all %}
+        <li class="point__item"><span class="point__num">{{ forloop.counter }}</span><a href="#" onclick="getProgect(this)" data-id="0" data-rayon-id="0" data-p-id="{{ i.id }}" class="point__title">{{ i.title }}</a></li>
+    {% endfor %}
+</ul>

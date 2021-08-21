@@ -1,0 +1,20 @@
+{% extends "wizard_template.html" %}
+
+{% block title_wizard %}
+    Куда едем?
+{% endblock %}
+{% block form_wizard %}
+    {% if ok == 'True' %}
+
+    {% endif %}
+    {%for item in wizard.form%}
+        {% include "input_field.html" with f=item %}
+    {%endfor%}
+{% endblock %}
+{% block button_wizard %}
+    <div class="row mt-3">
+        <div class="col-md-12 d-flex justify-content-center">
+            <input type="submit" class="small-btn yellow-btn" value="К выбору маршрута"/>
+        </div>
+    </div>
+{% endblock %}

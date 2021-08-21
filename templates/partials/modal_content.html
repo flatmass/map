@@ -1,0 +1,58 @@
+{% load thumbnail %}
+
+<div class="main-modal__header">
+    {% if proj.complete %}
+        <span class="main-modal__completed">Объект завершен</span>
+    {% endif %}
+    <h4 class="main-modal__title" id="myModalLabel">{{proj.title}}</h4>
+    <p class="main-modal__subtitle">{{proj.adress}}</p>
+</div>
+
+{% if proj.vid_rabot %}
+    <p class="main-modal__body__title">Вид работ</p>
+    <p class="main-modal__body__conernt">{{proj.vid_rabot}}</p>
+{% endif %}
+
+{% if proj.financi %}
+    <p class="main-modal__body__title">Объем финансирования</p>
+    <p class="main-modal__body__conernt">{{ proj.financi }} тыс. рублей</p>
+{% endif %}
+
+{% if proj.end_project_date %}
+    <p class="main-modal__body__title">Срок</p>
+    <p class="main-modal__body__conernt">{{ proj.end_project_date }}</p>
+{% endif %}
+
+{% if proj.description %}
+    <p class="main-modal__body__title">Дополнительная информация</p>
+    <p class="main-modal__body__conernt">{{ proj.description|safe }}</p>
+{% endif %}
+{% if proj.images %}
+    <div class="uk-child-width-1-3 " uk-grid uk-lightbox="animation: fade">
+            {% for i in proj.images.all %}
+                <div>
+                    {% thumbnail i.image 700x471 crop as image %}
+                    <a class="uk-inline" href="{{ image.url }}">
+                        {% thumbnail i.image 428x288 upscale crop as im %}
+                        <img src="{{ im.url }}" class="main-modal__body__img" alt="">
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+{% endif %}
+{% if proj.completeimages.all %}
+    <div>
+        <p class="main-modal__body__title my-2">Стало:</p>
+    </div>
+    <div class="uk-child-width-1-3" uk-grid uk-lightbox="animation: fade">
+            {% for i in proj.completeimages.all %}
+                <div>
+                    {% thumbnail i.image 700x471 crop as image %}
+                    <a class="uk-inline" href="{{ image.url }}">
+                        {% thumbnail i.image 428x288 upscale crop as im %}
+                        <img src="{{ im.url }}" class="main-modal__body__img" alt="">
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+{% endif %}
